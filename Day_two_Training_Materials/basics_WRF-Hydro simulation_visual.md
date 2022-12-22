@@ -41,10 +41,10 @@ cd /cluster/s7/workshop_dec2022/username/
 wrfhome=/cluster/s7/workshop_dec2022/username/
 ```
 
-**Step 3: copy example_case directory from `/scratch/WRF_HYDRO_SHARED/addisug` to your working directory**
+**Step 3: copy example_case directory from `/scratch/WRF_HYDRO_SHARED/` to your working directory**
 
 ```bash
-cp /scratch/WRF_HYDRO_SHARED/addisug/example_case .
+cp /scratch/WRF_HYDRO_SHARED/example_case .
 cd example_case
 ```
 
@@ -207,9 +207,9 @@ large so we will make symbolic links rather than copying the actual
 files.
 
 ``` bash
-ln -sf ~/wrf-hydro-training/example_case/FORCING .
-ln -sf ~/wrf-hydro-training/example_case/Gridded/DOMAIN .
-ln -sf ~/wrf-hydro-training/example_case/Gridded/RESTART .
+ln -sf  $wrfhome/example_case/FORCING .
+ln -sf  $wrfhome/example_case/Gridded/DOMAIN .
+ln -sf  $wrfhome/example_case/Gridded/RESTART .
 
 ls 
 ```
@@ -389,8 +389,3 @@ chanobs
 chanobs.sel(feature_id = 2).streamflow.plot()
 #chanobs.sel(feature_id = 3).streamflow.plot()
 ```
-
-
-
-
-

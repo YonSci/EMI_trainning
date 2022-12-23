@@ -1,19 +1,4 @@
----
-title: "WRF-Hydro GIS Pre-processing Tools"
-date: "`r Sys.Date()`"
-output:
-  html_document:
-    toc: true
-    number_sections: true  ## if you want number sections at each table header
-    toc_depth: 5  # upto three depths of headings (specified by #, ## and ###)
-    theme: cerulean  #  “default”, “bootstrap”, “cerulean”, “cosmo”, “darkly”, “flatly”, “journal”, “lumen”, “paper”, “readable”, “sandstone”, “simplex”, “spacelab”, “united”, “yeti”
-    highlight: haddock    #`tango`, `pygments`, `kate`, `monochrome`, `espresso`, `zenburn`, `haddock`, `zenburn`, `textmate`, `arrow`, or `rstudio`
-    toc_float:
-      collapsed: false
-      smooth_scroll: false
----
-
-# GIS Pre-processing Tools
+# WRF-Hydro GIS Pre-processing Tools
 
 ![](file:///home/yoni/Pictures/Screenshots/Et_river2.png?msec=1671734077302)
 

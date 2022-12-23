@@ -1,0 +1,22 @@
+name: wrfh_gis_env2
+dependencies:
+  - numpy
+  - pandas
+  - gdal
+  - geopandas
+  - ipympl
+  - ipywidgets
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - netCDF4
+  - nodejs
+  - numpy
+  - pandas
+  - pyproj
+  - rasterio
+  - widgetsnbextension
+  - pip
+  - pip:
+     - ipyleaflet
+     - whitebox
